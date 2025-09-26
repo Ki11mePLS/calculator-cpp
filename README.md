@@ -16,3 +16,7 @@
 ### 1. Компиляция
 ```bash
 g++ -o calculator calculator.cpp
+
+для визуализации абстрактно-семантического дерева:
+
+https://dreampuf.github.io/GraphvizOnline/
