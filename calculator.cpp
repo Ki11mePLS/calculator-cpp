@@ -221,9 +221,7 @@ int main() {
     if (system("which dot > /dev/null 2>&1") == 0) {
         system("dot -Tpng tree.dot -o tree.png");
         cout << "Создана картинка tree.png" << endl;
-    } else {
-        cout << "Установите graphviz чтобы создать картинку дерева" << endl;
-    }
+    } 
     
     return 0;
 }
